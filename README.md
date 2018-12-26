@@ -49,7 +49,7 @@ Only work with `react-scripts@1`.
   ```json
   {
     "scripts": {
-      "webpack:rocketize": "./path/to/your/script.sh",
+      "webpack:rocketize": "bash ./path/to/your/script.sh",
     }
   }
   ```
