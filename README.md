@@ -32,6 +32,7 @@ Only work with `react-scripts@1`.
     next times:     ~ 7-9s
 
 ## How to use
+  **_NOTE:_ All commands must be run at project root.**
 
   Create a script to whenever you want in your JS project with the following sample content:
 
@@ -56,4 +57,7 @@ Only work with `react-scripts@1`.
 
 ## How to customize the configs
 
-  If you don't want to use my configs, simply modify them in the `rocketize-webpack` folder then run `start.sh`.
+  If you don't want to use my configs, simply modify them in the `rocketize-webpack` folder then run
+  ```bash
+  bash ./rocketize-webpack/start.sh
+  ```
