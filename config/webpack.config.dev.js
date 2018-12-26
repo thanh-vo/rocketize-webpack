@@ -310,7 +310,7 @@ module.exports = {
     // }),
     new AutoDllPlugin({
       // inject: true, // will inject the DLL bundle to index.html
-      // debug: true,
+      debug: true,
       filename: '[name].dll.js',
       path: './static/dll',
       entry: {
