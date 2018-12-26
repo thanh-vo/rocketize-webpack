@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cp ./rocketize-webpack/config/webpack.config.dev.js ./node_modules/react-scripts/config/webpack.config.dev.js
 cp ./rocketize-webpack/config/webpackDevServer.config.js ./node_modules/react-scripts/config/webpackDevServer.config.js
 cp ./rocketize-webpack/config/paths.js ./node_modules/react-scripts/config/paths.js
