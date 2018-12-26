@@ -1,9 +1,9 @@
 #!/bin/bash
 
-clear=\e[0m
-red=\e[91m
-green=\e[92m
-yellow=\e[93m
+clear="\e[0m"
+red="\e[91m"
+green="\e[92m"
+yellow="\e[93m"
 
 if [ ! -d "./node_modules" ]; then
   echo -e "Cannot find ${green}/node_modules${clear}"
