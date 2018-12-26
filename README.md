@@ -1,9 +1,13 @@
 # Rocketize your webpack to have a better life
 
 
+## Update Node.js
+
+Please update your Node.js to `v10.14.2`(LTS). You may see a big difference even when you haven't done anything.
+
 ## Compatibility
 
-Only work with `react-scripts@1`.
+Only work with `react-scripts`@1.
 
 ## Features
 
