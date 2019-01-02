@@ -20,8 +20,10 @@ Only work with `react-scripts`@1.
   - Disabled some unnecessary options and plugins.
 
   **For prod config:**
-  
-  _(Nothing has been changed so far)_
+
+  - Disabled `eslint-loader`
+  - Used `happypack` to parallelize webpack bundling progress (only for JS code, applying for CSS is quite complicated, ignore for now).
+  - Used `autodll-webpack-plugin` to split and cache big vendor.
 
 ## Results
 
@@ -34,6 +36,10 @@ Only work with `react-scripts`@1.
 
     1st time:       ~ 13s
     next times:     ~ 7-9s
+
+  **Production build:**
+
+    ~ 3 minutes
 
 ## How to use
   **_NOTE:_ All commands must be run at project root.**
